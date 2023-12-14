@@ -28,7 +28,7 @@ char *_strconcat(char *dest, char *src)
  *Return: pointer to the first occurence of c in s
  */
 
-char *_strchr(char *str, char c)
+char *_strchr(char *str, char *c)
 {
 	int k = 0;
 
@@ -58,13 +58,13 @@ char **tokenize(char *str, char *delim)
 
 	while (token != NULL)
 	{
-		av = _realloc(av, sizeof(*av) * num_delim, sizeof(*av) * (num_delim + 1));
+		av = _mem_realloc(av, sizeof(*av) * num_delim, sizeof(*av) * (num_delim + 1));
 		av[num_delim] = token;
 		token = _strtok_r(NULL, delim, &ptr_save);
 		num_delim++;
 	}
 
-	av = _realloc(av, sizeof(*av) * num_delim, sizeof(*av) * (num_delim + 1));
+	av = _mem_realloc(av, sizeof(*av) * num_delim, sizeof(*av) * (num_delim + 1));
 	av[num_delim] = NULL;
 
 	return (av);
