@@ -47,7 +47,7 @@ extern void init(char **curr_command, int command_type);
 char **tokenize(char *, char *);
 char *_strconcat(char *, char *);
 char *_strchr(char *, char *);
-char *_strtok_r(char *, char *, char *);
+char *_strtok_r(char *, char *, char **);
 char *check_path(char *);
 
 /*utilities*/
