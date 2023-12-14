@@ -29,7 +29,7 @@ int _atoi(char *s)
  * @curr: size of the new memory to allocate
  * Return: pointer to the address of the new memory allocated
  */
-void *_realloc(void *ptr, unsigned int prev, unsigned int curr)
+void *_mem_realloc(void *ptr, unsigned int prev, unsigned int curr)
 {
 	void *temp;
 	unsigned int k;
