@@ -51,9 +51,9 @@ void env(char **tok_command __attribute__((unused)))
 {
 	int k;
 
-	for (k = 0; environment[k] != NULL; k++)
+	for (k = 0; environ[k] != NULL; k++)
 	{
-		print(environment[k], STDOUT_FILENO);
+		print(environ[k], STDOUT_FILENO);
 		print("\n", STDOUT_FILENO);
 	}
 }
