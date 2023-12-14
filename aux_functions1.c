@@ -16,10 +16,10 @@ void print(char *str, int stream)
 
 /**
  * rmv_ln - A function that removes new line
- * @str: string to use 
+ * @str: string to use
  * Return: void
  */
-void remove_newline(char *str)
+void rmv_ln(char *str)
 {
 	int k = 0;
 
@@ -33,8 +33,8 @@ void remove_newline(char *str)
 }
 
 /**
- * _strlen - counts string length
- * @string: string to be counted
+ * _strlength - counts string length
+ * @str: string to be counted
  * Return: length of the string
  */
 int _strlength(char *str)
