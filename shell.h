@@ -24,7 +24,7 @@
 extern char *name_of_shell;
 extern char *line;
 extern int status;
-extern char **environment;
+extern char **environ;
 extern char **commands;
 
 /**
