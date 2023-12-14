@@ -5,10 +5,10 @@
  * @command: command to parse
  * Return: constant matching the type of the command
  * Description -
- * 		 EXT_COMMANDS (1) i.e, /bin/ls
- * 		 PATH_COMMANDS (2) i.e, ls
- *		 INT_COMMANDS (3) i.e, exit, env
- *		 INVALID_COMMANDS (-1) invalid commands
+ * EXT_COMMANDS (1) i.e, /bin/ls
+ * PATH_COMMANDS (2) i.e, ls
+ * INT_COMMANDS (3) i.e, exit, env
+ * INVALID_COMMANDS (-1) invalid commands
  */
 
 int comm_parser(char *command)
