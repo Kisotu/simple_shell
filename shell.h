@@ -14,8 +14,8 @@
 
 /*Global constants & Definitions*/
 #define EXT_COMMANDS 1
-#define PATH_COMMANDS 2
-#define INT_COMMANDS 3
+#define PATH_COMMANDS 3
+#define INT_COMMANDS 2
 #define INVALID_COMMANDS -1
 #define min(x, y) (((x) < (y)) ? (x) : (y))
 
