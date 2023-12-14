@@ -64,7 +64,7 @@ char *_getenv(char *env_name)
 
 /**
  * exec_comm - A func that execs input command
- * @tokenized_command: tokenized form of the command (ls -l == {ls, -l, NULL})
+ * @tok_command: tokenized form of the command (ls -l == {ls, -l, NULL})
  * @command_type: type of the command
  * Return: void
  */
