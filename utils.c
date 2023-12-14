@@ -1,6 +1,7 @@
 #include "shell.h"
 
-/** comm_parser - determines entered the command
+/** 
+ * comm_parser - determines entered the command
  * @command: command to parse
  * Return: constant matching the type of the command
  * Description -
