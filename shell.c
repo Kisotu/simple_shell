@@ -1,9 +1,9 @@
 #include "shell.h"
 
-int status = 0;
-char *name_of_shell = NULL;
-char *line = NULL;
-char **commands = NULL;
+	int status = 0;
+	char *name_of_shell = NULL;
+	char *line = NULL;
+	char **commands = NULL;
 
 /**
  * main - the main shell code
