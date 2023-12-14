@@ -28,7 +28,7 @@ char *_strconcat(char *dest, char *src)
  *Return: pointer to the first occurence of c in s
  */
 
-char *_strchr(char *str, char *c)
+char *_strchr(char *str, char c)
 {
 	int k = 0;
 
