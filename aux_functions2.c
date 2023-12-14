@@ -33,7 +33,7 @@ int _strspn(char *s1, char *s2)
 
 	while (s1[k] != '\0')
 	{
-		if (_strchr(s2, s1[k]) == NULL)
+		if (_strchr(s2, *(s1 + k)) == NULL)
 			break;
 		match_no++;
 		k++;
