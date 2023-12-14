@@ -48,7 +48,7 @@ char *_getenv(char *env_name)
 	char *temp_copy;
 	char *pair_ptr;
 
-	for (env = environment; *env != NULL; env++)
+	for (env = environ; *env != NULL; env++)
 	{
 		for (pair_ptr = *env, temp_copy = env_name;
 		     *pair_ptr == *temp_copy; pair_ptr++, temp_copy++)
